@@ -1,0 +1,16 @@
+{
+  "host_publish": "test.mosquitto.org",
+  "host_sensores": "test.mosquitto.org",
+  "host_subscribe": "test.mosquitto.org",
+  "topic_publish": "casa/datos",
+  "topic_subscribe": "casa/datos",
+  "host": "localhost",
+  "database": "IOT",
+  "user": "postgres",
+  "password": "2001",
+  "table": "measurements",
+  "columns": "temperature,humidity,date",
+  "values": "%s,%s,%s",
+  "topic_ventilate": "casa/sensores",
+  "topic_spray": "casa/sensores"
+}
